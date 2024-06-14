@@ -1,6 +1,12 @@
+@import "../../style.scss";
+
 .register {
   height: 100vh;
   background-color: rgb(193, 190, 255);
+  @include mobile {
+    height: 100vh;
+    overflow-y: scroll;
+  }
   display: flex;
   align-items: center;
   justify-content: center;
@@ -12,6 +18,12 @@
     min-height: 40vh;
     overflow: hidden;
     flex-direction: row-reverse;
+    @include mobile {
+      margin: 30px 0;
+      width: 90%;
+      flex-direction: column;
+      overflow-y: scroll;
+    }
 
     .left {
       flex: 1;
@@ -45,6 +57,21 @@
         font-weight: bold;
         cursor: pointer;
         border-radius: 2px;
+      }
+      @include mobile {
+        flex: 0.5;
+        padding: 30px;
+        p {
+          // display: none;
+        }
+        h1 {
+          // display: none;
+          font-size: 7vh;
+          line-height: 5vh;
+        }
+        button {
+          padding: 5px 0px;
+        }
       }
     }
     .right {
