@@ -34,8 +34,15 @@ export const Login = () => {
         <div className="left">
           <h1>Hello World</h1>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed earum
-            culpa totam temporibus, corrupti
+            Test Login Credentials:
+            <div>Username :</div>
+            <div>Password :</div>
+            <div>Username :</div>
+            <div>Password :</div>
+            <br />
+            You can Signup or Login using test credentials, once you login in
+            you can post pictures, see older posts, their likes and comments by
+            other people
           </p>
           <span>Dont hv an account?</span>
           <Link to="/register">
