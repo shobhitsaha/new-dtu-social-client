@@ -41,8 +41,14 @@ export const Register = () => {
         <div className="left">
           <h1>DTU Social.</h1>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed earum
-            culpa totam temporibus, corrupti
+            You can Signup or Login using test credentials, once you login in
+            you can post pictures, see older posts, their likes and comments by
+            other people Test Login Credentials:
+            <div>Username :</div>
+            <div>Password :</div>
+            <div>Username :</div>
+            <div>Password :</div>
+            <br />
           </p>
           <span>have an account?</span>
           <Link to="/login">
