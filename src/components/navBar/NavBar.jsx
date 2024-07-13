@@ -86,16 +86,18 @@ const Navbar = () => {
           />
         )}
         <GridViewOutlinedIcon className="mobIcon" />
-        <div className="search">
-          <input
-            type="text"
-            placeholder="search username"
-            onChange={handleInput}
-            value={text}
-          />
-          <div onClick={handleClick}>
-            <SearchOutlinedIcon />
-          </div>
+        <div>
+          <form onSubmit={handleClick} className="search">
+            <input
+              type="text"
+              placeholder="search username"
+              onChange={handleInput}
+              value={text}
+            />
+            <button type="submit">
+              <SearchOutlinedIcon />
+            </button>
+          </form>
         </div>
         <CDropdown className="mob">
           <CDropdownToggle color="secondary"></CDropdownToggle>
