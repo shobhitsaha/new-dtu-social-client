@@ -23,9 +23,9 @@ export const Register = () => {
       await makeRequest.post("/auth/register", {
         ...inputs,
         profile:
-          "https://res.cloudinary.com/dcixsckwx/image/upload/v1690131532/blank-cover.jpg",
-        cover:
           "https://res.cloudinary.com/dcixsckwx/image/upload/v1690131532/blank-profile.jpg",
+        cover:
+          "https://res.cloudinary.com/dcixsckwx/image/upload/v1690131532/blank-cover.jpg",
       });
       await login({ username: inputs.username, password: inputs.password });
       navigate("/");
