@@ -44,10 +44,10 @@ export const Register = () => {
             You can Signup or Login using test credentials, once you login in
             you can post pictures, see older posts, their likes and comments by
             other people Test Login Credentials:
-            <div>Username :</div>
-            <div>Password :</div>
-            <div>Username :</div>
-            <div>Password :</div>
+            <div>Username : test</div>
+            <div>Password : 1234</div>
+            <div>Username : test1</div>
+            <div>Password : 1234</div>
             <br />
           </p>
           <span>have an account?</span>
